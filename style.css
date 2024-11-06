@@ -50,7 +50,12 @@
 .box nav .logo{
     color:#460a28;
     font-weight: Bold;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.logo span{
+    color: rgb(238, 238, 238);
+    font-size: 27px;
 }
 .box nav .navlists a{
     color:#460a28;
@@ -72,28 +77,30 @@
     width: 40%;
 }
 .main .content .info h1{
-    margin-bottom: 20px;
+  margin-top: 20%;
     font-size: 35px;
     color: whitesmoke;
 }
 
 .main .content .info h4{
     color:#460a28;
-    margin-bottom: 10px;
+    margin-top: 5%;
     font-size: 25px;
 }
 .main .content .info p{
-    color: rgb(31, 31, 128);
-    margin-bottom: 50px;
+    color: #460a28;
+    margin-top: 2%;
     font-size: 18px;
+   padding-bottom: 10%;
 }
-.main .content .mypropic{
-    width: 40%;
+
+.main .mypropic{
+    width: 25%;
     background-color: #460a28;
     padding:10px;
     border: 8px solid;
     border-color: #b3648c;
-    border-radius: 50%;
+    border-radius: 30%;
     display: inline-block;
 }
 .main .content .mypropic img{
@@ -101,9 +108,10 @@
     border-radius: 50%;
 }
 
-.main .content .info .btn{
+.main .btn{
     padding: 15px 20px;
-    background-color: #460a28;
+    margin-top: 5%;
+    background-color: #460425;
     border:#460a28;
     color: whitesmoke;
     border-radius: 5px;
