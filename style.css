@@ -52,7 +52,11 @@
     font-weight: Bold;
     font-size: 30px;
 }
-
+.logo{
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    margin-bottom: 20%;
+}
 .logo span{
     color: rgb(238, 238, 238);
     font-size: 27px;
@@ -78,7 +82,7 @@
 }
 .main .content .info h1{
   margin-top: 20%;
-    font-size: 35px;
+    font-size: 28px;
     color: whitesmoke;
 }
 
@@ -145,4 +149,17 @@
 
 .btn{
     color: aquamarine;
+}
+
+/*KEYFRAME ANIMATION*/
+
+@keyframes slideTop {
+    0%{
+        opacity:0;
+    transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(100px);   
+}
 }
