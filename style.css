@@ -57,14 +57,14 @@
     color: rgb(238, 238, 238);
     font-size: 27px;
 }
-.box nav .navlists a{
-    color:#460a28;
+.navlists a{
+    color:#2354e9;
     margin-left: 40px;
     text-transform:capitalize;
     transition: 0.3s;
 }
-.box nav .navlists a:hover,
-.box nav .navlists a.active{
+.navlists a:hover,
+.navlists a.active{
     color: #b3648c;
 }
 .main .content{
@@ -114,7 +114,7 @@
     background-color: #460425;
     border:#460a28;
     color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 20px;
     font-weight: bold;
 }
 .main .content .info .btn:hover{
@@ -134,9 +134,15 @@
     font-size: 20px;
     cursor: pointer;
     color: #b3648c;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     transition: 0.4s;
 }
 .socialink a i:hover{
     color: #460a28;
+
+
+}
+
+.btn{
+    color: aquamarine;
 }
