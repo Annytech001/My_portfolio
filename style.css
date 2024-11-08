@@ -55,7 +55,7 @@
 .logo{
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 .logo span{
     color: rgb(238, 238, 238);
@@ -160,6 +160,6 @@
     }
     100%{
         opacity: 1;
-        transform:translateY(80px);   
+        transform:translateY(50px);   
 }
 }
