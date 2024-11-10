@@ -179,12 +179,27 @@ flex-direction: column;
 gap:20px;
 }
 .contactform h2{
-    color: #460a28;;
+    color: #460a28;
     font-size: 22px;
-    font-weight: 400%;
+    font-weight: 500%;
+}
+.contactform hr{
+    border: none;
+    width:120px;
+    height: 2px;
+    background-color: rgb(31, 22, 22);
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .contactinput{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #460a28;
+    border-radius:50px
 }
