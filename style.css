@@ -91,13 +91,20 @@
     margin-top: 5%;
     font-size: 25px;
 }
-.main .content .info p{
+.content .info p{
     color: #460a28;
     margin-top: 2%;
     font-size: 18px;
+    font-weight: 300;
    padding-bottom: 10%;
+   Text-align:  justify;
+   line-height: 22px;
 }
-
+.content .info h3{
+    color: #460a28;
+    font-size: 18px;
+    font-weight: 600;
+}
 .main .mypropic{
     width: 25%;
     background-color: #460a28;
