@@ -170,3 +170,20 @@
         transform:translateY(50px);   
 }
 }
+.contactform{
+display: flex;
+flex-direction: column;
+align-items: start;
+gap:20px;
+}
+.contactform h2{
+    color: #460a28;;
+    font-size: 22px;
+    font-weight: 400%;
+}
+.contactinput{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
